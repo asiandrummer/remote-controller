@@ -1,0 +1,132 @@
+.controller-module {
+  width: 320px;
+  height: 320px;
+}
+
+.handle-bg {
+  width: 320px;
+  height: 320px;
+  background: url(img/handle_bg.png);
+  background-size: 320px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.handle-bg > div {
+  width: 320px;
+  height: 320px;
+  position: absolute;
+}
+
+.handle-bg .center-ball {
+  width: 130px;
+  height: 130px;
+  background: url(img/center_ball.png);
+  background-size: 130px;
+  background-repeat: no-repeat;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.handle-bg .center-ball[pressed] {
+  background-image: url(img/center_ball_press.png);
+}
+
+.handle-bg .ch-prev {
+  width: 50px;
+  height: 50px;
+  background: url(img/ch_prev.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  top: 10px;
+  bottom: 0;
+  left: 40px;
+  margin: auto;
+}
+
+.handle-bg .ch-prev[pressed] {
+  width: 90px;
+  height: 90px;
+  background-image: url(img/ch_prev_press.png);
+  background-size: 90px;
+  background-repeat: no-repeat;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  margin: auto;
+}
+
+.handle-bg .ch-next {
+  width: 50px;
+  height: 50px;
+  background: url(img/ch_next.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  top: 10px;
+  bottom: 0;
+  right: 40px;
+  margin: auto;
+}
+
+.handle-bg .ch-next[pressed] {
+  width: 90px;
+  height: 90px;
+  background-image: url(img/ch_next_press.png);
+  background-size: 90px;
+  background-repeat: no-repeat;
+  top: 10px;
+  bottom: 0;
+  right: 20px;
+  margin: auto;
+}
+
+.handle-bg .volume-up {
+  width: 50px;
+  height: 50px;
+  background: url(img/volume_up.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.handle-bg .volume-up[pressed] {
+  width: 90px;
+  height: 90px;
+  background: url(img/volume_up_press.png);
+  background-size: 90px;
+  background-repeat: no-repeat;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.handle-bg .volume-down {
+  width: 50px;
+  height: 50px;
+  background: url(img/volume_down.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.handle-bg .volume-down[pressed] {
+  width: 90px;
+  height: 90px;
+  background: url(img/volume_down_press.png);
+  background-size: 90px;
+  background-repeat: no-repeat;
+  bottom: 25px;
+  left: 0;
+  right: 10px;
+  margin: auto;
+}
